@@ -21,7 +21,8 @@ jobs:
         with:
           github_user_name: Pechenkai
           outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github-light
+            dist/github-contribution-grid-snake.svg?color_snake=%23E11D48&color_dots=%23EBEDF0,%23C6E7D4,%2372D6A0,%2322A06B,%23087F5B
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23FFB000&color_dots=%23161B22,%231E3A5F,%230C4A6E,%230891B2,%2322D3EE
 
       - name: Publish animation
         uses: crazy-max/ghaction-github-pages@v4
